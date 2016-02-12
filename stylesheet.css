@@ -94,6 +94,63 @@ p {
 }
 
 
+  font-family: 'Pacifico', monospace;
+}
+
+
+/* Remove default hyperlink styling, add our own colours and change font-size*/
+a, a:visited {
+  color:tomato;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* This changes the link colour when someone hovers their mouse over it */
+a:hover {
+  color: darkred;
+}
+
+/* Style our header tags */
+h1, h2 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 10px 0 0
+}
+
+h2 {
+  font-size: 22px;
+  color: #67809F;
+}
+
+
+/* Adds some space around our bio */
+p {
+  padding: 20px 0;
+}
+
+
+/* Style our 'available' and 'unavailable' classes */
+.available, .unavailable {
+  width: 60%;
+  margin:10px auto 20px;
+  border-radius: 3px;
+  padding: 14px 0;
+}
+
+.available {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+.unavailable {
+  color: #999;
+  background-color: #eee;
+}
+
+
 
 
 
